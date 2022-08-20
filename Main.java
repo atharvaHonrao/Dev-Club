@@ -6,11 +6,11 @@ public class Main extends Data{
         int optTopic;
         int ans,p=0;
         System.out.println("Welcome to the Quiz!!!!");
-        System.out.println("The menu for the quiz is:\n1.Maths\n2.Java");
         Scanner sc =new Scanner(System.in);
 
 
         do {
+            System.out.println("The menu for the quiz is:\n1.Maths\n2.Java\n3.Exit the Quiz");
             optTopic=sc.nextInt();
 
             switch (optTopic) {
@@ -87,10 +87,7 @@ public class Main extends Data{
                             break;
 
             }
-
-
             p=0;
-            System.out.println("The menu for the quiz is:\n1.Maths\n2.Java\n3.Exit the Quiz");
 
         }while(optTopic!=3);
 
