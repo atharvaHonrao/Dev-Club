@@ -89,6 +89,7 @@ public class Main extends Data{
             }
 
 
+            p=0;
             System.out.println("The menu for the quiz is:\n1.Maths\n2.Java\n3.Exit the Quiz");
 
         }while(optTopic!=3);
